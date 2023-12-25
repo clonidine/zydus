@@ -3,6 +3,12 @@ pub struct Product {
     pub description: Option<String>,
 }
 
+pub enum OrderStatus {
+    PENDENT,
+    CANCELLED,
+    OK,
+}
+
 pub struct User {
     pub name: String,
 }
