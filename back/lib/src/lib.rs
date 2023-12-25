@@ -1,5 +1,6 @@
 pub struct Product {
     pub name: String,
+    pub id: Option<u64>,
     pub description: Option<String>,
 }
 
