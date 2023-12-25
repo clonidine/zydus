@@ -1,6 +1,9 @@
+use bigdecimal::BigDecimal;
+
 pub struct Product {
     pub name: String,
     pub id: Option<u64>,
+    pub price: BigDecimal,
     pub description: Option<String>,
 }
 
