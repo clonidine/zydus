@@ -9,6 +9,10 @@ pub struct Product {
     pub description: Option<String>,
 }
 
+pub trait Repository<T> {
+    fn find_one(id: u64) -> T;
+}
+
 pub enum OrderStatus {
     PENDENT,
     CANCELLED,
