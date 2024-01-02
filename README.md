@@ -5,4 +5,4 @@
 
 ## Technologies Used
 - Front-end: **JavaScript, HTML, CSS**
-- Back-end: **Rust**
+- Back-end: **Rust, Docker**
