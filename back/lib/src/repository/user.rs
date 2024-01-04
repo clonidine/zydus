@@ -5,7 +5,8 @@ use super::Repository;
 pub struct UserRepository;
 
 impl Repository<User> for UserRepository {
-    fn find_one(id: u64) -> User {
+    #[allow(unused_variables)]
+    fn find_one(id: u64) -> color_eyre::Result<User> {
         todo!()
     }
 
