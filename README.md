@@ -17,3 +17,6 @@
 ## Requirements to build
 - Docker
 - Rust Language
+
+## How to build
+**SOON**
