@@ -13,3 +13,7 @@
 - Rust
 - Docker
 - MariaDB
+
+## Requirements to build
+- Docker
+- Rust Language
