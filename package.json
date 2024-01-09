@@ -1,0 +1,16 @@
+{
+  "name": "zydus",
+  "version": "1.1.0",
+  "description": "## Inspiration **This is an online marketplace inspired by the style of Amazon**",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
