@@ -1,4 +1,4 @@
 [workspace]
 resolver = "2"
 
-members = ["zydus-core", "zydus", "zydus-http"]
+members = ["crates/zydus-core", "crates/zydus", "crates/zydus-http"]
